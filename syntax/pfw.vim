@@ -44,19 +44,17 @@ syn match   pfwComment            "#.*$" contains=pfwTodo
 " and so on, as specified in the 'Python Language Reference'.
 " http://docs.python.org/reference/lexical_analysis.html#numeric-literals
 " FIXME: clarify if .pfw also supports hex
-if !exists("pfw_no_number_highlight")
-  " numbers (including longs and complex)
-  syn match   pfwNumber   "\<0[oO]\=\o\+[Ll]\=\>"
-  syn match   pfwNumber   "\<0[xX]\x\+[Ll]\=\>"
-  syn match   pfwNumber   "\<0[bB][01]\+[Ll]\=\>"
-  syn match   pfwNumber   "\<\%([1-9]\d*\|0\)[Ll]\=\>"
-  syn match   pfwNumber   "\<\d\+[jJ]\>"
-  syn match   pfwNumber   "\<\d\+[eE][+-]\=\d\+[jJ]\=\>"
-  syn match   pfwNumber
-   \ "\<\d\+\.\%([eE][+-]\=\d\+\)\=[jJ]\=\%(\W\|$\)\@="
-  syn match   pfwNumber
-   \ "\%(^\|\W\)\@<=\d*\.\d\+\%([eE][+-]\=\d\+\)\=[jJ]\=\>"
-endif
+" numbers (including longs and complex)
+syn match   pfwNumber   "\<0[oO]\=\o\+[Ll]\=\>"
+syn match   pfwNumber   "\<0[xX]\x\+[Ll]\=\>"
+syn match   pfwNumber   "\<0[bB][01]\+[Ll]\=\>"
+syn match   pfwNumber   "\<\%([1-9]\d*\|0\)[Ll]\=\>"
+syn match   pfwNumber   "\<\d\+[jJ]\>"
+syn match   pfwNumber   "\<\d\+[eE][+-]\=\d\+[jJ]\=\>"
+syn match   pfwNumber
+      \ "\<\d\+\.\%([eE][+-]\=\d\+\)\=[jJ]\=\%(\W\|$\)\@="
+syn match   pfwNumber
+      \ "\%(^\|\W\)\@<=\d*\.\d\+\%([eE][+-]\=\d\+\)\=[jJ]\=\>"
 
 " Trailing whitespaces
 syn match   pfwSpaceError   display excludenl "\s\+$"
