@@ -61,7 +61,7 @@ endif
 " Trailing whitespaces
 syn match   pfwSpaceError   display excludenl "\s\+$"
 " Spaces are forbidden in .pfw files
-syn match   pfwSpaceError   display "^\s\+"
+syn match   pfwSpaceError   display "^ \+"
 
 if version >= 508 || !exists("did_pfw_syn_inits")
   if version <= 508
