@@ -21,14 +21,14 @@ TODO
 ### With plugin manager (Pathogen)
 Just clone this repo into your your `~/.vim/bundle` directory.
 
-    git clone https://www.github.com/makohoek/pfw-vim-syntax
+    git clone https://github.com/Makohoek/pfw-vim-syntax.git
 
 
 ### Without plugin manager
 
 Copy the content of this repo into your `~/.vim` directory.
 
-    git clone https://www.github.com/makohoek/pfw-vim-syntax
+    git clone https://github.com/Makohoek/pfw-vim-syntax.git
     cp -r pfw-vim-syntax/* ~/.vimrc/
 
 ## Missing features / known issues
