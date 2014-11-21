@@ -4,17 +4,17 @@ Vim syntax plugin for Extended Domain Description files (a.k.a .pfw files)
 ## Previews
 Here are few previews with various colorschemes:
 
+### Default gVim
+[default-gvim](https://raw.githubusercontent.com/Makohoek/pfw-vim-syntax/master/screenshots/default.png)
+
 ### Solarized light
-TODO
+[solarized-light](https://raw.githubusercontent.com/Makohoek/pfw-vim-syntax/master/screenshots/solarized_light.png)
 
 ### Solarized dark
-TODO
-
-### Monokai
-TODO
+[solarized-dark](https://raw.githubusercontent.com/Makohoek/pfw-vim-syntax/master/screenshots/solarized_dark.png)
 
 ### Base16-tomorrow
-TODO
+[base16-tomorrow](https://raw.githubusercontent.com/Makohoek/pfw-vim-syntax/master/screenshots/base16-tomorrow.png)
 
 ## Install instructions:
 
@@ -23,9 +23,7 @@ Just clone this repo into your your `~/.vim/bundle` directory.
 
     git clone https://github.com/Makohoek/pfw-vim-syntax.git
 
-
 ### Without plugin manager
-
 Copy the content of this repo into your `~/.vim` directory.
 
     git clone https://github.com/Makohoek/pfw-vim-syntax.git
