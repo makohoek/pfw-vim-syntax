@@ -5,16 +5,16 @@ Vim syntax plugin for Extended Domain Description files (a.k.a .pfw files)
 Here are few previews with various colorschemes:
 
 ### Default gVim
-[default-gvim](https://raw.githubusercontent.com/Makohoek/pfw-vim-syntax/master/screenshots/default.png)
+![default-gvim](/screenshots/default.png)
 
 ### Solarized light
-[solarized-light](https://raw.githubusercontent.com/Makohoek/pfw-vim-syntax/master/screenshots/solarized_light.png)
+![solarized-light](/screenshots/solarized_light.png)
 
 ### Solarized dark
-[solarized-dark](https://raw.githubusercontent.com/Makohoek/pfw-vim-syntax/master/screenshots/solarized_dark.png)
+![solarized-dark](/screenshots/solarized_dark.png)
 
 ### Base16-tomorrow
-[base16-tomorrow](https://raw.githubusercontent.com/Makohoek/pfw-vim-syntax/master/screenshots/base16-tomorrow.png)
+![base16-tomorrow](/screenshots/base16-tomorrow.png)
 
 ## Install instructions:
 
