@@ -25,7 +25,6 @@ syn keyword pfwKeyword            confGroup confType conf rule component
 syn keyword pfwKeyword            sequenceAware
 syn keyword pfwRuleOperator       ALL ANY
 syn keyword pfwCriterionOperator  Includes Excludes Is IsNot
-syn keyword pfwCriterionValue     True False None
 syn match   pfwComponentPath      "[A-Za-z0-9\.\-_\:]*/[A-Za-z0-9\.\-_\:]*"
 syn match   pfwComment            "#.*$" contains=pfwTodo
 
@@ -77,7 +76,6 @@ if version >= 508 || !exists("did_pfw_syn_inits")
   HiLink pfwKeyword           Identifier
   HiLink pfwRuleOperator      Conditional
   HiLink pfwCriterionOperator Operator
-  HiLink pfwCriterionValue    Type
   HiLink pfwComponentPath     String
   HiLink pfwComment           Comment
   HiLink pfwTodo              Todo
