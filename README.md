@@ -27,7 +27,7 @@ Just clone this repo into your your `~/.vim/bundle` directory.
 Copy the content of this repo into your `~/.vim` directory.
 
     git clone https://github.com/Makohoek/pfw-vim-syntax.git
-    cp -r pfw-vim-syntax/* ~/.vimrc/
+    cp -r pfw-vim-syntax/* ~/.vim/
 
 ## Missing features / known issues
 
