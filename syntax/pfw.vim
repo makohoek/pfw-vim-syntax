@@ -26,7 +26,7 @@ syn keyword pfwKeyword            sequenceAware
 syn keyword pfwRuleOperator       ALL ANY
 syn keyword pfwCriterionOperator  Includes Excludes Is IsNot
 syn keyword pfwCriterionValue     True False None
-syn match   pfwComponentPath      "[A-Za-z0-9 ]*/[A-Za-z0-9 /]*"
+syn match   pfwComponentPath      "[A-Za-z0-9 _]*/[A-Za-z0-9 _/]*"
 syn match   pfwComment            "#.*$" contains=pfwTodo
 
 " It is very important to understand all details before changing the
