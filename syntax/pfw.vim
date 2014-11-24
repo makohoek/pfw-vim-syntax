@@ -56,10 +56,14 @@ syn match   pfwNumber
 syn match   pfwNumber
       \ "\%(^\|\W\)\@<=\d*\.\d\+\%([eE][+-]\=\d\+\)\=[jJ]\=\>"
 
+" see :h pattern.txt for more info
 " Trailing whitespaces
 syn match   pfwSpaceError   display excludenl "\s\+$"
 " Spaces are forbidden in .pfw files
 syn match   pfwSpaceError   display "^ \+"
+" Spaces mixed with tabs are forbidden in .pfw files
+syn match   pfwSpaceError   display "\t\+ \+"
+syn match   pfwSpaceError   display " \+\t\+"
 
 if version >= 508 || !exists("did_pfw_syn_inits")
   if version <= 508
